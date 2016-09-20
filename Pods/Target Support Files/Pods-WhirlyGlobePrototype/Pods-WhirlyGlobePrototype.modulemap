@@ -1,0 +1,6 @@
+framework module Pods_WhirlyGlobePrototype {
+  umbrella header "Pods-WhirlyGlobePrototype-umbrella.h"
+
+  export *
+  module * { export * }
+}
