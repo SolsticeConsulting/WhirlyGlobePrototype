@@ -12,6 +12,13 @@
 		01F78A0F1D91B909000EC613 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F78A0D1D91B909000EC613 /* Main.storyboard */; };
 		01F78A111D91B909000EC613 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F78A101D91B909000EC613 /* Assets.xcassets */; };
 		01F78A141D91B909000EC613 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F78A121D91B909000EC613 /* LaunchScreen.storyboard */; };
+		01F78A251D9310F3000EC613 /* northamerica.geojson2 in Resources */ = {isa = PBXBuildFile; fileRef = 01F78A241D9310F3000EC613 /* northamerica.geojson2 */; };
+		01F78A271D93119A000EC613 /* africa.geojson2 in Resources */ = {isa = PBXBuildFile; fileRef = 01F78A261D93119A000EC613 /* africa.geojson2 */; };
+		01F78A291D9319E3000EC613 /* southamerica.geojson2 in Resources */ = {isa = PBXBuildFile; fileRef = 01F78A281D9319E3000EC613 /* southamerica.geojson2 */; };
+		01F78A2B1D931A23000EC613 /* asia.geojson2 in Resources */ = {isa = PBXBuildFile; fileRef = 01F78A2A1D931A23000EC613 /* asia.geojson2 */; };
+		01F78A2D1D931A3B000EC613 /* europe.geojson2 in Resources */ = {isa = PBXBuildFile; fileRef = 01F78A2C1D931A3B000EC613 /* europe.geojson2 */; };
+		01F78A2F1D931A5C000EC613 /* oceania.geojson2 in Resources */ = {isa = PBXBuildFile; fileRef = 01F78A2E1D931A5C000EC613 /* oceania.geojson2 */; };
+		01F78A311D931A8E000EC613 /* antarctica.geojson2 in Resources */ = {isa = PBXBuildFile; fileRef = 01F78A301D931A8E000EC613 /* antarctica.geojson2 */; };
 		F87C2836856C359F45D5DA70 /* Pods_WhirlyGlobePrototype.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8962FF95ABF9B27CB5DB4817 /* Pods_WhirlyGlobePrototype.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +31,13 @@
 		01F78A131D91B909000EC613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01F78A151D91B909000EC613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01F78A1B1D91C262000EC613 /* WhirlyGlobePrototype-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WhirlyGlobePrototype-Bridging-Header.h"; sourceTree = "<group>"; };
+		01F78A241D9310F3000EC613 /* northamerica.geojson2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = northamerica.geojson2; sourceTree = "<group>"; };
+		01F78A261D93119A000EC613 /* africa.geojson2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = africa.geojson2; sourceTree = "<group>"; };
+		01F78A281D9319E3000EC613 /* southamerica.geojson2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = southamerica.geojson2; sourceTree = "<group>"; };
+		01F78A2A1D931A23000EC613 /* asia.geojson2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = asia.geojson2; sourceTree = "<group>"; };
+		01F78A2C1D931A3B000EC613 /* europe.geojson2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = europe.geojson2; sourceTree = "<group>"; };
+		01F78A2E1D931A5C000EC613 /* oceania.geojson2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = oceania.geojson2; sourceTree = "<group>"; };
+		01F78A301D931A8E000EC613 /* antarctica.geojson2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = antarctica.geojson2; sourceTree = "<group>"; };
 		282DD1A264A295869E39DAE0 /* Pods-WhirlyGlobePrototype.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhirlyGlobePrototype.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhirlyGlobePrototype/Pods-WhirlyGlobePrototype.release.xcconfig"; sourceTree = "<group>"; };
 		8962FF95ABF9B27CB5DB4817 /* Pods_WhirlyGlobePrototype.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhirlyGlobePrototype.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1E1534E2A0DCE319EBEC7F9 /* Pods-WhirlyGlobePrototype.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhirlyGlobePrototype.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhirlyGlobePrototype/Pods-WhirlyGlobePrototype.debug.xcconfig"; sourceTree = "<group>"; };
@@ -62,6 +76,7 @@
 		01F78A081D91B908000EC613 /* WhirlyGlobePrototype */ = {
 			isa = PBXGroup;
 			children = (
+				01F78A1E1D92E8DC000EC613 /* Resources */,
 				01F78A091D91B908000EC613 /* AppDelegate.swift */,
 				01F78A0B1D91B909000EC613 /* ViewController.swift */,
 				01F78A0D1D91B909000EC613 /* Main.storyboard */,
@@ -71,6 +86,28 @@
 				01F78A1B1D91C262000EC613 /* WhirlyGlobePrototype-Bridging-Header.h */,
 			);
 			path = WhirlyGlobePrototype;
+			sourceTree = "<group>";
+		};
+		01F78A1E1D92E8DC000EC613 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				01F78A231D9310E8000EC613 /* Continents */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		01F78A231D9310E8000EC613 /* Continents */ = {
+			isa = PBXGroup;
+			children = (
+				01F78A301D931A8E000EC613 /* antarctica.geojson2 */,
+				01F78A2E1D931A5C000EC613 /* oceania.geojson2 */,
+				01F78A2C1D931A3B000EC613 /* europe.geojson2 */,
+				01F78A2A1D931A23000EC613 /* asia.geojson2 */,
+				01F78A281D9319E3000EC613 /* southamerica.geojson2 */,
+				01F78A241D9310F3000EC613 /* northamerica.geojson2 */,
+				01F78A261D93119A000EC613 /* africa.geojson2 */,
+			);
+			name = Continents;
 			sourceTree = "<group>";
 		};
 		6AB9A7EE2A16B918D8DC91FB /* Pods */ = {
@@ -151,8 +188,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01F78A291D9319E3000EC613 /* southamerica.geojson2 in Resources */,
+				01F78A311D931A8E000EC613 /* antarctica.geojson2 in Resources */,
+				01F78A2D1D931A3B000EC613 /* europe.geojson2 in Resources */,
 				01F78A141D91B909000EC613 /* LaunchScreen.storyboard in Resources */,
 				01F78A111D91B909000EC613 /* Assets.xcassets in Resources */,
+				01F78A251D9310F3000EC613 /* northamerica.geojson2 in Resources */,
+				01F78A2B1D931A23000EC613 /* asia.geojson2 in Resources */,
+				01F78A271D93119A000EC613 /* africa.geojson2 in Resources */,
+				01F78A2F1D931A5C000EC613 /* oceania.geojson2 in Resources */,
 				01F78A0F1D91B909000EC613 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
